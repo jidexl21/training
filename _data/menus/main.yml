@@ -6,7 +6,7 @@
   - name: Child Two
     url : / 
 - name: COURSES
-  url: '#'
+  url: 'training.html#'
 
 - name: Contact
   url: #
