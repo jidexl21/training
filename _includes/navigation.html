@@ -1,0 +1,41 @@
+      <!-- Navigation Bar -->
+      <div class="header_menu">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-flex d-flex align-items-center justify-content-between w-100">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <a class="navbar-brand text-center" href="/">
+                  <img src="assets/images/logo.png" alt="image" />
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="navbar-collapse1 w-100" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="responsive-menu">
+                  {% for link in site.data.menus.main %}
+                    <li {% if link.children %} class="dropdown submenu" {% endif %}>
+                        <a href="{{ link.url }}" class="dropdown submenu" >
+                        {{ link.name }}
+                         {% if link.children %} <i class="fas fa-chevron-down"></i> {% endif %}
+                        </a>
+                         {% if link.children %}
+                      <ul class="dropdown-menu">
+                         {% for childlink in link.children %}
+                      <li><a href="{{ childlink.url }}">{{ childlink.name }}</a></li>
+                         {% endfor %}
+                      </ul>
+                         {% endif %}
+
+                    </li>
+                  {% endfor %}
+
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+              <div id="slicknav-mobile"></div>
+            </div>
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+      <!-- Navigation Bar Ends -->

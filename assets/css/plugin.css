@@ -1,8 +1,8 @@
 /* =========================================
-  Project: LEF
+  Project: ePathsala
   Authot: Bizberg_themes
   URL: https://themeforest.net/user/bizberg_themes/portfolio
-  Created: 10/25/2025
+  Created: 10/25/2021
  ========================================= */
 
 /* -----------------------------
@@ -4398,7 +4398,6 @@ Change the following styles to modify the appearance of the menu.
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../images/loading.html) no-repeat;
 }
 .lb-nav {
   position: absolute;
