@@ -18,17 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: LEF Training website
+title: YPLEF — Young Professional Leaders & Entrepreneurs Forum
+tagline: Empowering the Next Generation of Global Leaders and Innovators.
 email: your-email@example.com
 mobile:  "+2348012345678"
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  YPLEF is a premier platform dedicated to bridging the gap between established
+  industry giants and emerging young professionals. Featuring exclusive interviews
+  with global leaders, entrepreneurial insights, and career development resources
+  — all freely available on YouTube.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+youtube_channel: https://www.youtube.com/@YPLEF
 
 address: ""
 
