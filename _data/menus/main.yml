@@ -1,12 +1,15 @@
-- name: HOME
-  url: '#'
-  children:
-  - name: Child One
-    url: '#'
-  - name: Child Two
-    url : / 
-- name: COURSES
-  url: '#'
+- name: Home
+  url: /
 
-- name: Contact
-  url: #
+- name: About
+  url: '#about'
+
+- name: Sessions
+  url: '#videos'
+
+- name: Subscribe
+  url: '#contact'
+
+- name: YouTube
+  url: https://www.youtube.com/@YPLEF
+  external: true
