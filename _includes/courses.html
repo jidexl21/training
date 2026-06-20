@@ -11,7 +11,7 @@
 
         <!-- Category Tab Navigation -->
         <ul class="nav nav-tabs yplef-tabs mb-4" id="videoTabs" role="tablist" style="border-bottom:2px solid #e9ecef; gap:4px;">
-          {% assign categories = "executive,panels,masterclass,highlights" | split: "," %}
+          {% assign categories = "career,faith,wellbeing" | split: "," %}
           {% for cat in categories %}
             {% assign cat_data = site.data.videos.youtube[cat] %}
             {% if cat_data %}
@@ -38,6 +38,7 @@
               class="tab-pane fade {% if forloop.first %}show active{% endif %}"
               id="pane-{{ cat }}"
               role="tabpanel"
+              aria-labelledby="tab-{{ cat }}"
             >
               {% if cat_data.description %}
               <p class="text-muted mb-4" style="font-size:0.95rem;">{{ cat_data.description }}</p>

@@ -1,178 +1,93 @@
-# YPLEF YouTube Videos
-# Organised by category. Each video can have:
-#   title    - display title
-#   guest    - guest name / role (optional, for executive interviews)
-#   url      - full YouTube watch URL
-#   video_id - the ID after ?v= (used for thumbnails and embeds)
-#
-# To add a missing video: uncomment url/video_id and fill in the real values.
-# Verify IDs at youtube.com/@YPLEF/videos before publishing.
+# YPLEF YouTube Videos — sourced from official RSS feed
+# All video IDs verified from youtube.com/feeds/videos.xml?channel_id=UCbbLuHqK40zD80L7yzpc0xQ
+# Organised newest-first within each category.
 
-executive:
-  label: "In Conversation"
-  description: "Long-form interviews with CEOs, government officials, and industry pioneers."
+career:
+  label: "Career & Growth"
+  description: "Professional development, entrepreneurship, and career strategy for young professionals."
   videos:
-    - title: "Mr. Yofi Grant — CEO, GIPC"
-      guest: "Yofi Grant, CEO of Ghana Investment Promotion Centre"
-      url: https://www.youtube.com/watch?v=rF8S-uXh6sY
-      video_id: rF8S-uXh6sY
+    - title: "Harnessing Entrepreneurial and Intrapreneurial Opportunities in the Global Market"
+      url: https://www.youtube.com/watch?v=-IQP_-z2aPY
+      video_id: "-IQP_-z2aPY"
+      published: "2026-06-11"
 
-    - title: "Dr. Edith Dankwa — CEO, B&FT"
-      guest: "Dr. Edith Dankwa, CEO of Business & Financial Times"
-      url: https://www.youtube.com/watch?v=U6I6UqUo7_M
-      video_id: U6I6UqUo7_M
+    - title: "ADAPTING AND THRIVING IN GLOBAL PROFESSIONAL ENVIRONMENTS"
+      url: https://www.youtube.com/watch?v=rcO8WKol-uU
+      video_id: rcO8WKol-uU
+      published: "2026-05-14"
 
-    - title: "Mr. Senyo Hosi — CEO, CBOD"
-      guest: "Senyo Hosi, CEO of Chamber of Bulk Oil Distributors"
-      url: https://www.youtube.com/watch?v=Xk-2jL7Bf_k
-      video_id: Xk-2jL7Bf_k
+    - title: "SILENT EXCELLENCE VS STRATEGIC VISIBILITY: WINNING THE CAREER GAME"
+      url: https://www.youtube.com/watch?v=ii99CXKK1Uw
+      video_id: ii99CXKK1Uw
+      published: "2026-03-05"
 
-    - title: "Mrs. Mansa Nettey — CEO, Standard Chartered Ghana"
-      guest: "Mansa Nettey, CEO of Standard Chartered Ghana"
-      url: https://www.youtube.com/watch?v=8_W8Z6Y-j2Y
-      video_id: 8_W8Z6Y-j2Y
+    - title: "DEVELOPING SKILLS FOR A THRIVING SIDE BUSINESS"
+      url: https://www.youtube.com/watch?v=OAPJq0EXEV4
+      video_id: OAPJq0EXEV4
+      published: "2026-02-19"
 
-    - title: "Mr. Prince Kofi Amoabeng — Co-Founder, UT Bank"
-      guest: "Prince Kofi Amoabeng, Co-Founder of UT Bank"
-      url: https://www.youtube.com/watch?v=u-8M3z0D-Hk
-      video_id: u-8M3z0D-Hk
+    - title: "PARADIGM SHIFT: MINDSET RE-ENGINEERING FOR YOUNG PROFESSIONALS"
+      url: https://www.youtube.com/watch?v=tUwFrwvKb4A
+      video_id: tUwFrwvKb4A
+      published: "2026-01-22"
 
-    - title: "Madam Catherine Krobo Edusei — Eden Tree"
-      guest: "Catherine Krobo Edusei, Eden Tree"
-      url: https://www.youtube.com/watch?v=3Jt1R6v9K8s
-      video_id: 3Jt1R6v9K8s
+    - title: "WHY WE LEARN BUT FAIL TO GROW: INSIGHTS AND FEEDBACK"
+      url: https://www.youtube.com/watch?v=OTttB-YxP2Q
+      video_id: OTttB-YxP2Q
+      published: "2025-12-11"
 
-    - title: "Hon. Kojo Oppong Nkrumah — Minister for Information"
-      guest: "Kojo Oppong Nkrumah, Minister for Information"
-      url: https://www.youtube.com/watch?v=z0f9V4-w9Z8
-      video_id: z0f9V4-w9Z8
-
-    - title: "Dr. Daniel McKorley (McDan) — McDan Group"
-      guest: "Dr. Daniel McKorley, McDan Group"
-      url: https://www.youtube.com/watch?v=L2b4N8-u6T4
-      video_id: L2b4N8-u6T4
-
-    - title: "Mr. Albert Ocran — Legacy & Legacy"
-      guest: "Albert Ocran, Legacy & Legacy"
-      url: https://www.youtube.com/watch?v=9V7x-Q9j-wE
-      video_id: 9V7x-Q9j-wE
+    - title: "JOURNEYING TO HOUSE OWNERSHIP: THE PROFESSIONAL'S PATHWAY"
+      url: https://www.youtube.com/watch?v=VWD3o3HjdmM
+      video_id: VWD3o3HjdmM
+      published: "2025-11-13"
 
     - title: "Breaking Into Blockchain: Paths To Earning Your First $1,000"
       url: https://www.youtube.com/watch?v=YFojWJL2SXk
       video_id: YFojWJL2SXk
 
+faith:
+  label: "Faith & Life"
+  description: "Navigating relationships, faith, purpose, and the big life decisions."
+  videos:
+    - title: "Interacting With Wisdom"
+      url: https://www.youtube.com/watch?v=nPxXeFldXFI
+      video_id: nPxXeFldXFI
+      published: "2026-05-28"
+
+    - title: "NAVIGATING THE UK SCHOOL SYSTEM AS CHRISTIANS"
+      url: https://www.youtube.com/watch?v=NIHciVVIOqs
+      video_id: NIHciVVIOqs
+      published: "2026-05-03"
+
+    - title: "NAVIGATING LIFE BEFORE AND AFTER 'I DO'"
+      url: https://www.youtube.com/watch?v=WzmwDIbS6oM
+      video_id: WzmwDIbS6oM
+      published: "2026-04-30"
+
     - title: "The Marry Magnet — Becoming a Marriageable Person"
       url: https://www.youtube.com/watch?v=OP-XXzs6Ktk
       video_id: OP-XXzs6Ktk
 
-panels:
-  label: "Forums & Panels"
-  description: "Multi-speaker discussions on policy, economics, and Africa's future."
+wellbeing:
+  label: "Wellbeing"
+  description: "Health, self-care, and the practices that keep you performing at your best."
   videos:
-    - title: "Youth Leadership Forum: National Development"
-      url: https://www.youtube.com/watch?v=H2z1P9_f5K0
-      video_id: H2z1P9_f5K0
+    - title: "Autism: Understanding the Spectrum Beyond the Stereotypes"
+      url: https://www.youtube.com/watch?v=mK2atZpqkD8
+      video_id: mK2atZpqkD8
+      published: "2026-04-16"
 
-    - title: "The Future of Banking in Africa"
-      url: https://www.youtube.com/watch?v=B4n6M8_l9P2
-      video_id: B4n6M8_l9P2
+    - title: "Understanding and Practicing Self Care"
+      url: https://www.youtube.com/watch?v=Mc15LfnJWtw
+      video_id: Mc15LfnJWtw
+      published: "2026-04-02"
 
-    - title: "Women in Leadership Panel Discussion"
-      url: https://www.youtube.com/watch?v=F7j4K2_r9S1
-      video_id: F7j4K2_r9S1
+    - title: "EATING FOR A HEALTHY HEART"
+      url: https://www.youtube.com/watch?v=Eb4kTt2mVXI
+      video_id: Eb4kTt2mVXI
+      published: "2026-02-05"
 
-    - title: "The AfCFTA and the Young Entrepreneur"
-      url: https://www.youtube.com/watch?v=D3v9B5_w2Z7
-      video_id: D3v9B5_w2Z7
-
-    - title: "YPLEF Regional Summit Accra: Highlights"
-      url: https://www.youtube.com/watch?v=A1m4X9_v6B8
-      video_id: A1m4X9_v6B8
-
-    - title: "DECENT WORK AND WELLBEING"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "WHY WE LEARN BUT FAIL TO GROW: INSIGHTS AND FEEDBACK"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "NAVIGATING THE BALANCE BETWEEN FAITH, WORK AND LIFE"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "Global Talent Visa Information Session"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-masterclass:
-  label: "Masterclasses"
-  description: "Focused, actionable sessions on skills and strategy for young professionals."
-  videos:
-    - title: "Personal Branding for Young Professionals"
-      url: https://www.youtube.com/watch?v=P0k2G5_m1N3
-      video_id: P0k2G5_m1N3
-
-    - title: "Strategic Planning for Small Businesses"
-      url: https://www.youtube.com/watch?v=S4t8L2_z9X0
-      video_id: S4t8L2_z9X0
-
-    - title: "Mastering Public Speaking"
-      url: https://www.youtube.com/watch?v=M3c1V9_k7R5
-      video_id: M3c1V9_k7R5
-
-    - title: "Corporate Governance 101"
-      url: https://www.youtube.com/watch?v=C9v2B4_w8D6
-      video_id: C9v2B4_w8D6
-
-    - title: "Financial Management for Startups"
-      url: https://www.youtube.com/watch?v=F5n8M2_p0T4
-      video_id: F5n8M2_p0T4
-
-    - title: "Life-long Learning: An Investment for Professional Growth"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "Repositioning for Strategic Advantage"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "Unleashing Your Creative Potential"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "Modesty Meets Style"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "BECOMING YOUR BEST VERSION"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "Marital Delay: Causes, Solutions & The Ever-After Bliss"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "Trusted Approaches to Conquering Sexual Immorality"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-    - title: "ESTABLISHING PROFESSIONAL BOUNDARIES WHILE UNLOCKING AI'S FULL POTENTIAL"
-      # url: https://www.youtube.com/watch?v=TODO
-      # video_id: TODO
-
-highlights:
-  label: "Highlights & Events"
-  description: "Recaps, shorts, and event snippets from the YPLEF community."
-  videos:
-    - title: "YPLEF 1st Anniversary Recap"
-      url: https://www.youtube.com/watch?v=Y1v4P7_k9X3
-      video_id: Y1v4P7_k9X3
-
-    - title: "Why You Should Join YPLEF"
-      url: https://www.youtube.com/watch?v=W8n3M2_j5B0
-      video_id: W8n3M2_j5B0
-
-    - title: "Entrepreneurship Pitch Competition Snippet"
-      url: https://www.youtube.com/watch?v=E2k7L4_r1S9
-      video_id: E2k7L4_r1S9
+    - title: "THE SECRET POWER OF GRATITUDE"
+      url: https://www.youtube.com/watch?v=qd12ABRQue8
+      video_id: qd12ABRQue8
+      published: "2025-11-27"
