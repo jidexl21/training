@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: YPLEF — Young Professional Leaders & Entrepreneurs Forum
+title: YPLEF — Young Professionals' Life Enlightenment Forum
 tagline: Empowering the Next Generation of Global Leaders and Innovators.
 email: your-email@example.com
 mobile:  "+2348012345678"
